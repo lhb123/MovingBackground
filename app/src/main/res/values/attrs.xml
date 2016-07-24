@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HeartLayout">
+        <attr name="initX" format="dimension" />
+        <attr name="initY" format="dimension" />
+        <attr name="xRand" format="dimension" />
+        <attr name="animLengthRand" format="dimension" />
+        <attr name="xPointFactor" format="dimension" />
+        <attr name="animLength" format="dimension" />
+        <attr name="heart_width" format="dimension" />
+        <attr name="heart_height" format="dimension" />
+        <attr name="bezierFactor" format="integer" />
+        <attr name="anim_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AlphaButton">
+        <attr name="alpha" format="float" />
+        <attr name="pressedAlpha" format="float" />
+        <attr name="disAlpha" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ShapeButton">
+        <attr name="solidColor" format="color" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="NGridLayout">
+        <attr name="maxN" format="integer" />
+        <attr name="spaceHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableTextView">
+        <attr name="android:drawableLeft" />
+        <attr name="android:drawableTop" />
+        <attr name="android:drawableRight" />
+        <attr name="android:drawableBottom" />
+        <attr name="drawableWidth" format="dimension" />
+        <attr name="drawableHeight" format="dimension" />
+        <attr name="isDrawableCenter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableRadioButton">
+        <attr name="button_drawable" format="reference" />
+        <attr name="button_width" format="dimension" />
+        <attr name="button_height" format="dimension" />
+        <attr name="drawable_width" format="dimension" />
+        <attr name="drawable_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableCheckBox">
+        <attr name="box_drawable" format="reference" />
+        <attr name="box_width" format="dimension" />
+        <attr name="box_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioLayout">
+        <attr name="text" format="string" />
+        <attr name="drawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VerifyStateTextView">
+        <attr name="verifyState" format="enum">
+            <enum name="pending" value="1"/>
+            <enum name="succeed" value="2"/>
+            <enum name="fail" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- 类似于"设置"页面中的那些水平条目, 个人主页中的那些水平条目等 -->
+    <declare-styleable name="SettingItemLayout">
+        <attr name="nameText" format="string" />
+        <attr name="nameColor" format="color" />
+        <attr name="nameSize" format="dimension" />
+        <attr name="nameMarginLeftPx" format="dimension" />
+        <attr name="isShowValue" format="boolean" />
+        <attr name="valueText" format="string" />
+        <attr name="valueColor" format="color" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="isShowArrow" format="boolean" />
+        <attr name="paddingRightPx" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AuthAvatarLayout">
+        <attr name="authMarkSize" format="dimension"/>
+    </declare-styleable>
+</resources>

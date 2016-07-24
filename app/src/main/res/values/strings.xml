@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovingBackgroud</string>
+
+    <string name="login_type">登录方式</string>
+</resources>
